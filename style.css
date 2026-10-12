@@ -1,0 +1,141 @@
+/* 1. Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf4ff;
+    color: #222;
+}
+
+/* 2. Main container */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. Main heading */
+h1 {
+    color: #164e87;
+    font-size: 36px;
+}
+
+/* 4. Search form */
+#weather-form {
+    margin: 25px 0;
+}
+
+/* 5. City input */
+#city-input {
+    width: 60%;
+    max-width: 350px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+/* 6. Search button */
+#weather-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* 7. Button hover effect */
+#weather-form button:hover {
+    background-color: #1259a7;
+}
+
+/* 8. Current weather section */
+#current-weather {
+    background-color: white;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* 9. City name */
+#city-name {
+    color: #164e87;
+    font-size: 28px;
+}
+
+/* 10. Temperature */
+#temperature {
+    font-size: 42px;
+    color: #1976d2;
+    margin: 15px 0;
+}
+
+/* 11. Weather details */
+#current-weather p {
+    font-size: 17px;
+}
+
+/* 12. Forecast section */
+#forecast-section {
+    margin-top: 35px;
+}
+
+/* 13. Forecast heading */
+#forecast-section h2 {
+    color: #164e87;
+}
+
+/* 14. Forecast container */
+#forecast-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* 15. Individual forecast cards */
+.forecast-card {
+    background-color: white;
+    width: 140px;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* 16. Error message */
+#error-message {
+    color: red;
+    font-size: 16px;
+}
+
+/* 17. Mobile screen styling */
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #city-input {
+        width: 90%;
+        max-width: none;
+        box-sizing: border-box;
+    }
+
+    #weather-form button {
+        margin-top: 10px;
+    }
+
+    .forecast-card {
+        width: 125px;
+    }
+}

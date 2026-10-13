@@ -139,3 +139,24 @@ h1 {
         width: 125px;
     }
 }
+/* Matching locations */
+#location-results {
+    width: 80%;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+/* Individual location option */
+.location-option {
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.location-option:hover {
+    background-color: #dbeafe;
+}

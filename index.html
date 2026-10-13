@@ -21,17 +21,21 @@
         <p>Check the weather in your city</p>
 
         <!-- City Search Form -->
-        <form id="weather-form">
+       <form id="weather-form">
 
-            <input
-                type="text"
-                id="city-input"
-                placeholder="Enter city name"
-            >
+    <input
+        type="text"
+        id="city-input"
+        placeholder="Enter city name"
+        required
+    >
 
-            <button type="submit">Search</button>
+    <button type="submit">Search</button>
 
-        </form>
+</form>
+
+<!-- Display matching locations -->
+<div id="location-results"></div>
 
         <!-- Error Message -->
         <p id="error-message"></p>
